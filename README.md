@@ -2,6 +2,8 @@
 
 Using geospatial data in the context of a react app to commemorate our first thru hike of the John Muir Trail.
 
+![screenshot](./sample-screenshot.png)
+
 ## Quick start
 1. Clone this repo
 2. Check `.nvmrc` for the proper node version. If using using `nvm` simply `nvm use`
