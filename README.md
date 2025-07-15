@@ -1,6 +1,6 @@
 # Geo Noodling
 
-Exploring using geospatial data in the context of a React application.
+Using geospatial data in the context of a react app to commemorate our first thru hike of the John Muir Trail.
 
 ## Quick start
 1. Clone this repo
