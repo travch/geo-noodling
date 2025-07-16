@@ -3,6 +3,7 @@ import 'leaflet/dist/leaflet.css';
 
 import { campCoords } from '../constants/marker-coords';
 import { CampMarker } from './CampMarker';
+import { Tracks } from './Tracks';
 import { GpxLayer } from './GPX';
 import gpxDay1 from '../data/tracks/day1.gpx';
 
@@ -123,7 +124,7 @@ export const MyMap = () => {
           popupContent='Night 22'
           position={campCoords.night22}
         />
-        <GpxLayer gpxData={gpxDay1} />
+        <Tracks />
       </MapContainer>
     </div>
   );
