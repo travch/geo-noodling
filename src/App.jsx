@@ -1,8 +1,13 @@
+import '@mantine/core/styles.css';
+import { MantineProvider } from '@mantine/core';
+
 import { MyMap } from './components/MyMap';
 
 function App() {
   return (
-    <MyMap />
+    <MantineProvider>
+      <MyMap />
+    </MantineProvider>
   )
 }
 
